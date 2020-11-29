@@ -1,0 +1,76 @@
+div.home{
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    background: rgb(31, 211, 31);
+    border: 1px solid red;
+}
+
+.panelCard{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    width: 100%;
+    border: 1px solid red;
+}
+.cardBlock{
+    height: 400px;
+    width: 400px;
+    border: 1px solid red;
+    perspective: 10000px;
+    transform-style: preserve-3d;
+}
+.card{
+    height: 100%;
+    width: 100%;
+    background-image: url(./people.png);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.2s;
+}
+.toDoWrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    width: 500px;
+    margin: auto;
+}
+.toDo{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    min-width:200px;
+    min-height: 50px;
+    padding: 0 40px 0 10px;
+    border: 1px solid red;
+    background: black;
+    border-radius: 50px;
+    /* word-break: break-all; */
+}
+.delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    background: crimson;
+    color: black;
+    position: absolute;
+    right: 10px;
+    user-select: none;
+}
+.crossOut{
+    text-decoration: line-through;
+}
+@keyframes rotate360{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

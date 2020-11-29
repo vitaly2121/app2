@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div#header{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    min-height: 200px;
+    background: black;
+    border: 1px solid red; 
+    z-index: 2; 
+}
+ul.menu_ul a{
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+    margin: 20px;
+}
+div.progressWrapper{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+    border: 1px solid red;
+    z-index: 999999;
+}
+div.progress{
+    width: 0%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.76);
+}

@@ -1,0 +1,6 @@
+div.about{
+    width: 100%;
+    min-height: 400px;
+    background: rgb(65, 204, 88);
+    border: 1px solid red;  
+}

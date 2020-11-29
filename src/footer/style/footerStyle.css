@@ -1,0 +1,9 @@
+div.footer{
+    width: 100%;
+    min-height: 2000px;
+    background: rgb(141, 118, 118);
+    border: 1px solid red;  
+}
+p{
+    font-size: 30px;
+}

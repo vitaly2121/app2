@@ -1,0 +1,6 @@
+div.news{
+    width: 100%;
+    min-height: 400px;
+    background: rgb(31, 211, 31);
+    border: 1px solid red;;
+}

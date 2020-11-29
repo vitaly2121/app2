@@ -1,0 +1,7 @@
+.bestMusic{
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    background: rgb(226, 14, 163);
+    border: 1px solid red;
+}

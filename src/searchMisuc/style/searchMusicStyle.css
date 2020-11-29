@@ -1,0 +1,66 @@
+div.SearchMusic{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    background: rgb(31, 211, 31);
+    border: 1px solid red;;
+}
+div.panel{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+div.result{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 500px;
+    height: 100%;
+    margin: 0 auto;
+}
+input, button{
+    height: 50px;
+    width: 150px;
+}
+div.resultCard{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+    width: 240px;
+    height: 400px;
+    padding: 10px 0px;
+    overflow: hidden;
+    position: relative;
+}
+div.resultCard a{
+    font-size: 1.2em;
+    color: red;
+}
+div.resultCard p{
+    font-size: 1.2em;
+    padding:0px 5px;
+    word-wrap: break-word;
+    border-bottom: 1px solid red;
+}
+div.resultCard img{
+    min-width: 200px;
+    min-height: 200px;
+}
+button.heart{
+    background-image: url(./img/heart.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -10px;
+    right: 0px;
+}
